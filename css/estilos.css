@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding: 0;
+    margin: 0;}
+
+       
+.portada{
+       width: 100%;
+        text-align: center;
+        height: auto;
+	background-color: #FFDB2E
+     }
+form {display: flex;
+    flex-direction: column; background-color: #FFDB2E;
+    }
+h3 { font-family:'Sugar Death 2'; tab-size: 42px; text-align: center; background-color: #FFDB2E; padding: 8px}
+nav{padding: 20px; display: revert;  width: 100%; align-items: center; background-color: #FFDB2E;text-align: center;}
+
+nav a { text-decoration: none; padding: 6px 12px; font-size: 15px; font-family:"Sugar Death 2"; color: black;border-radius: 30px; text-align: center}
+
+nav a:hover {color:black;cursor: pointer; transition: all 0.3s ease; text-decoration: none;text-align:center; background: #deb887; }
+
+section {background-color:  #FFDB2E}
+form {width:80%; 
+        margin: auto; 
+        border-radius: 30px;
+        padding: 20px; 
+        box-sizing: border-box;
+	font-family: "Sugar Death 2"
+	
+    }
+
+form label{align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: medium;
+font-family: "Sugar Death 2"}
+
+form input, form select, form textarea {padding: 4px; border: 1px solid black; width: 70%; border-radius: 6px}
+form input[type=checkbox],form input[type=radio] {width: auto}
+form input[type=submit] {background-color: black; opacity: 100%; border-radius: 20px; padding: 10px 25px 10px 25px; border: none; box-shadow: 2px 3px 2px #dbd8d8; margin-bottom: 17px; text-align: center; color: white; cursor: pointer; transition: all 0.3s ease;}
+
+
+form label { width:180px; 
+    display: inline-block; 
+    font-weight: bold;}
+    
+form input, form select, form textarea { padding: 4px; 
+    border: 1px solid #FFDB2E; width: 70%;}
